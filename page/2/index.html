@@ -1,0 +1,935 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="John Doe">
+  <meta name="keywords" content="">
+  
+    <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/page/2/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary_large_image">
+  
+  
+  
+  <title>Hexo</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 7.1.1"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 100vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>电院2261团支部</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>归档</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>关于</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/brief/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>“十四五”规划简介</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/health/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>健康中国</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tech/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>科技自立自强</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/green/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>绿色转型</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/rural/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>乡村振兴</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="十四五：大学生这样学"></span>
+          
+        </div>
+
+        
+      </div>
+
+      
+        <div class="scroll-down-bar">
+          <i class="iconfont icon-arrowdown"></i>
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      <div class="container nopadding-x-md">
+        <div id="board"
+          style="margin-top: 0">
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/02/29/%E3%80%8A%E5%8A%A0%E5%BF%AB%E5%BB%BA%E8%AE%BE%E7%A7%91%E6%8A%80%E5%BC%BA%E5%9B%BD-%E5%AE%9E%E7%8E%B0%E9%AB%98%E6%B0%B4%E5%B9%B3%E7%A7%91%E6%8A%80%E8%87%AA%E7%AB%8B%E8%87%AA%E5%BC%BA%E3%80%8B/" target="_self">
+          《加快建设科技强国 实现高水平科技自立自强》
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/02/29/%E3%80%8A%E5%8A%A0%E5%BF%AB%E5%BB%BA%E8%AE%BE%E7%A7%91%E6%8A%80%E5%BC%BA%E5%9B%BD-%E5%AE%9E%E7%8E%B0%E9%AB%98%E6%B0%B4%E5%B9%B3%E7%A7%91%E6%8A%80%E8%87%AA%E7%AB%8B%E8%87%AA%E5%BC%BA%E3%80%8B/" target="_self">
+        <div>
+          加快建设科技强国 实现高水平科技自立自强习近平 这是习近平总书记2021年5月28日在中国科学院第二十次院士大会、中国工程院第十五次院士大会和中国科协第十次全国代表大会上的讲话。 今天，中国科学院第二十次院士大会、中国工程院第十五次院士大会和中国科协第十次全国代表大会隆重开幕了。这是我们在“两个一百年”奋斗目标的历史交汇点、开启全面建设社会主义现代化国家新征程的重要时刻，共商推进我国科技创新发展大
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-02-29 16:58" pubdate>
+              2024-02-29
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/briefForTech/" class="category-chain-item">briefForTech</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/02/29/%E9%AB%98%E6%B0%B4%E5%B9%B3%E7%A7%91%E6%8A%80%E8%87%AA%E7%AB%8B%E8%87%AA%E5%BC%BA%E7%9A%84%E6%97%B6%E4%BB%A3%E5%86%85%E6%B6%B5/" target="_self">
+          《高水平科技自立自强的时代内涵》
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/02/29/%E9%AB%98%E6%B0%B4%E5%B9%B3%E7%A7%91%E6%8A%80%E8%87%AA%E7%AB%8B%E8%87%AA%E5%BC%BA%E7%9A%84%E6%97%B6%E4%BB%A3%E5%86%85%E6%B6%B5/" target="_self">
+        <div>
+          高水平科技自立自强的时代内涵聂祚仁 党的十九届五中全会提出，把科技自立自强作为国家发展的战略支撑，习近平总书记在参观国家“十三五”科技创新成就展时进一步指出，加快实现高水平科技自立自强，为建设世界科技强国、实现中华民族伟大复兴作出新的更大贡献。高水平科技自立自强，是立足新发展阶段、贯彻新发展理念、构建新发展格局的应有之义，对赢得新一轮科技革命和发展的主动权、实现第二个百年奋斗目标具有重要意义。广大
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-02-29 16:56" pubdate>
+              2024-02-29
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/briefForTech/" class="category-chain-item">briefForTech</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/02/29/%E8%AE%BA%E7%A7%91%E6%8A%80%E8%87%AA%E7%AB%8B%E8%87%AA%E5%BC%BA%E4%B9%8B%E6%84%8F%E4%B9%89%EF%BC%9A%E3%80%8A%E7%A7%91%E6%8A%80%E8%87%AA%E7%AB%8B%E8%87%AA%E5%BC%BA%E6%98%AF%E5%9B%BD%E5%AE%B6%E5%BC%BA%E7%9B%9B%E4%B9%8B%E5%9F%BA%E3%80%81%E5%AE%89%E5%85%A8%E4%B9%8B%E8%A6%81%E3%80%8B/" target="_self">
+          论科技自立自强之意义：《科技自立自强是国家强盛之基、安全之要》
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/02/29/%E8%AE%BA%E7%A7%91%E6%8A%80%E8%87%AA%E7%AB%8B%E8%87%AA%E5%BC%BA%E4%B9%8B%E6%84%8F%E4%B9%89%EF%BC%9A%E3%80%8A%E7%A7%91%E6%8A%80%E8%87%AA%E7%AB%8B%E8%87%AA%E5%BC%BA%E6%98%AF%E5%9B%BD%E5%AE%B6%E5%BC%BA%E7%9B%9B%E4%B9%8B%E5%9F%BA%E3%80%81%E5%AE%89%E5%85%A8%E4%B9%8B%E8%A6%81%E3%80%8B/" target="_self">
+        <div>
+          科技自立自强是国家强盛之基、安全之要2023-07-0413:58:57 来源：《红旗文稿》杂志 科技自立自强是国家强盛之基、安全之要。党的十八大以来，以习近平同志为核心的党中央高度重视科技创新工作，坚持把创新作为引领发展的第一动力，把科技创新摆在国家发展全局的核心位置，对我国科技事业进行了战略性全局性谋划，坚定不移走中国特色自主创新道路，加快推进科技自立自强，取得了一系列重大创新成果，我国科技事
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-02-29 16:54" pubdate>
+              2024-02-29
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/briefForTech/" class="category-chain-item">briefForTech</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/02/29/%E3%80%8A%E2%80%9C%E5%8D%81%E5%9B%9B%E4%BA%94%E2%80%9D%E5%9B%BD%E5%AE%B6%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%E6%99%AE%E5%8F%8A%E5%8F%91%E5%B1%95%E8%A7%84%E5%88%92%E3%80%8B/" target="_self">
+          《“十四五”国家科学技术普及发展规划》
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/02/29/%E3%80%8A%E2%80%9C%E5%8D%81%E5%9B%9B%E4%BA%94%E2%80%9D%E5%9B%BD%E5%AE%B6%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%E6%99%AE%E5%8F%8A%E5%8F%91%E5%B1%95%E8%A7%84%E5%88%92%E3%80%8B/" target="_self">
+        <div>
+          科技部 中央宣传部 中国科协关于印发《“十四五”国家科学技术普及发展规划》的通知国科发才〔2022〕212号 各省、自治区、直辖市及计划单列市、副省级城市科技厅（委、局）、党委宣传部、科协，新疆生产建设兵团科技局、党委宣传部、科协，中央、国务院有关部门、直属机构，中央军委科技委： 现将《“十四五”国家科学技术普及发展规划》印发给你们，请结合本地区、本部门实际，认真贯彻实施。 科技部中央宣传部 中国
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-02-29 16:50" pubdate>
+              2024-02-29
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/briefForTech/" class="category-chain-item">briefForTech</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/02/29/%E7%BA%A2%E8%89%B2%E5%87%BA%E6%B8%B8/" target="_self">
+          红色出游
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/02/29/%E7%BA%A2%E8%89%B2%E5%87%BA%E6%B8%B8/" target="_self">
+        <div>
+          4月22日，团支部组织了一次融合“红色记忆学习”与“健康中国”为一体的红色主题班级出游，旨在让同学们进行“户外”团课学习与团日活动的同时，多外出运动、锻炼身体。  全班同学分为三个小组，以三条不同的线路步行参观上海“红色”景点，一路上开展了“参观比赛”、“趣味任务”、向革命烈士献上自己的书信和礼物等活动。   同学们在活动结束后有了不少心得与感悟，同时也感受到了身体上的疲惫。这次班级出游让同学们对
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-02-29 16:32" pubdate>
+              2024-02-29
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/atvsForHealth/" class="category-chain-item">atvsForHealth</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/02/29/%E8%A1%97%E5%A4%B4%E5%81%A5%E8%BA%AB%E7%A4%BE%E8%81%94%E8%B0%8A%E6%B4%BB%E5%8A%A8/" target="_self">
+          街头健身社联谊活动
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/02/29/%E8%A1%97%E5%A4%B4%E5%81%A5%E8%BA%AB%E7%A4%BE%E8%81%94%E8%B0%8A%E6%B4%BB%E5%8A%A8/" target="_self">
+        <div>
+          考虑到同学们平时锻炼方式往往有着方式单一的局限，同时常常也会受限于场地的制约。为此，我们邀请到了交大街头健身协会，希望能从他们那里获取专业的知识，也向同学们推广更科学，更多样的锻炼方式。 11月22日晚，电院2261班与交大街头健身协会在南区体育场开展联谊活动。  活动开始先是由街健社社长为同学们讲解和科普运动锻炼的相关知识以及街头健身的理念。随后，健身社成员们热情地向同学们介绍健身器材、街健动作
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-02-29 16:26" pubdate>
+              2024-02-29
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/atvsForHealth/" class="category-chain-item">atvsForHealth</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/02/29/%E5%81%A5%E5%BA%B7%E4%B8%AD%E5%9B%BD%E5%AE%A3%E4%BC%A0%E8%AE%B2%E5%BA%A7/" target="_self">
+          健康中国宣传讲座
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/02/29/%E5%81%A5%E5%BA%B7%E4%B8%AD%E5%9B%BD%E5%AE%A3%E4%BC%A0%E8%AE%B2%E5%BA%A7/" target="_self">
+        <div>
+          “健康中国”是中国式现代化的一个重要组成部分。为了更好普及“健康中国”相关知识理念，11月18日晚，团支部在东下院开展了由生活委员进行主持讲解的“健康讲座”。 !()[img&#x2F;健康中国宣传讲座&#x2F;讲座.jpg] 讲座以“合理膳食与健康”为主题，由当今大学生普遍存在的生活问题引入到合理膳食的标准，再到作为大学生如何做到合理膳食、健康膳食。本次活动为同学们践行“健康中国行动”提供了一
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-02-29 16:22" pubdate>
+              2024-02-29
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/atvsForHealth/" class="category-chain-item">atvsForHealth</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/02/29/%E7%8F%AD%E7%BA%A7%E8%BF%90%E5%8A%A8%E4%BC%9A/" target="_self">
+          班级运动会
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/02/29/%E7%8F%AD%E7%BA%A7%E8%BF%90%E5%8A%A8%E4%BC%9A/" target="_self">
+        <div>
+          秋日趣味运动会电院2261班趣味运动会于11月22日下午在电院大草坪开展。本次运动会包含以下四个运动项目。活动开始前，团支书对运动会规则与注意事项进行说明。同学们跃跃欲试，草坪上的风再大也没有刮走同学们参与的热情。  1、“新时代趣味投壶大赛” 运动会第一项是让同学们兴致勃勃的投壶大赛。“投壶”是中国传统投掷游戏，至今已有几千年的历史。本次投壶比赛赛题形式丰富，既保持了考验投掷能力的传统内核，又结
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-02-29 12:55" pubdate>
+              2024-02-29
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/atvsForHealth/" class="category-chain-item">atvsForHealth</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/02/29/%E7%8F%AD%E7%BA%A7%E5%A4%9C%E8%B7%91/" target="_self">
+          校园夜跑
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/02/29/%E7%8F%AD%E7%BA%A7%E5%A4%9C%E8%B7%91/" target="_self">
+        <div>
+          校园夜跑为了让同学们能够落实“健康中国”15个重大行动中的“全民健身行动”，团支部分别于5月12日和10月8日晚举行了2次“班级夜跑”活动。活动旨在让每位同学能运动起来，同时在运动中增进班级凝聚力，对配速没有要求。夜跑全长3 km，在人行道区域进行，全程有医护队员保障每一位同学的安全。一路上同学们迈步向前，互相鼓励，咬牙坚持。每位同学在到达终点后都获得了成功坚持的奖品，也在欢声笑语的夜晚里感受了跑
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-02-29 12:48" pubdate>
+              2024-02-29
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/atvsForHealth/" class="category-chain-item">atvsForHealth</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/02/29/%E5%81%A5%E5%BA%B7%E4%B8%AD%E5%9B%BD%E6%84%8F%E8%A7%81%E5%8E%9F%E6%96%87/" target="_self">
+          《国务院关于实施健康中国行动的意见》
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/02/29/%E5%81%A5%E5%BA%B7%E4%B8%AD%E5%9B%BD%E6%84%8F%E8%A7%81%E5%8E%9F%E6%96%87/" target="_self">
+        <div>
+          国务院关于实施健康中国行动的意见国发〔2019〕13号 各省、自治区、直辖市人民政府，国务院各部委、各直属机构: 人民健康是民族昌盛和国家富强的重要标志，预防是最经济最有效的健康策略。党中央、国务院发布《“健康中国2030”规划纲要》，提出了健康中国建设的目标和任务。党的十九大作出实施健康中国战略的重大决策部署，强调坚持预防为主，倡导健康文明生活方式，预防控制重大疾病。为加快推动从以治病为中心转变
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-02-29 10:55" pubdate>
+              2024-02-29
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/briefForHealth/" class="category-chain-item">briefForHealth</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+
+
+  <nav aria-label="navigation">
+    <span class="pagination" id="pagination">
+      <a class="extend prev" rel="prev" href="/"><i class="iconfont icon-arrowleft"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/#board">3</a><a class="extend next" rel="next" href="/page/3/#board"><i class="iconfont icon-arrowright"></i></a>
+    </span>
+  </nav>
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
