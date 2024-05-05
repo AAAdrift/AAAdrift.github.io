@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-05-05T15:39:17.961Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="Nw-OdIhWzL-P9rICB71v" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-05T16:35:09.278Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="Vy5U9NlFhm0XbsGkGaI3" version="24.3.1" type="github">
   <diagram name="第 1 页" id="L96vX1XhK6QXdYlFLpfw">
-    <mxGraphModel dx="1717" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1960" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="G9uZSufEg39AA2sRg3oI-21" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;textShadow=0;textOpacity=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="1420" width="660" height="450" as="geometry" />
+        </mxCell>
         <mxCell id="Ul97I4Ve1XMXk0d_GilV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Ul97I4Ve1XMXk0d_GilV-1" target="Ul97I4Ve1XMXk0d_GilV-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -79,8 +82,66 @@
         <mxCell id="Ul97I4Ve1XMXk0d_GilV-33" value="static bool shrink_node(pg_data_t *pgdat, struct scan_control *sc)&lt;div&gt;定义在mm/vmscan.c中&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;//&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve; color: rgb(44, 44, 54); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;在指定的内存节点（&lt;/span&gt;&lt;code style=&quot;white-space-collapse: break-spaces; box-sizing: border-box; --un-rotate: 0; --un-rotate-x: 0; --un-rotate-y: 0; --un-rotate-z: 0; --un-scale-x: 1; --un-scale-y: 1; --un-scale-z: 1; --un-skew-x: 0; --un-skew-y: 0; --un-translate-x: 0; --un-translate-y: 0; --un-translate-z: 0; --un-pan-x: ; --un-pan-y: ; --un-pinch-zoom: ; --un-scroll-snap-strictness: proximity; --un-ordinal: ; --un-slashed-zero: ; --un-numeric-figure: ; --un-numeric-spacing: ; --un-numeric-fraction: ; --un-border-spacing-x: 0; --un-border-spacing-y: 0; --un-ring-offset-shadow: 0 0 transparent; --un-ring-shadow: 0 0 transparent; --un-shadow-inset: ; --un-shadow: 0 0 transparent; --un-ring-inset: ; --un-ring-offset-width: 0px; --un-ring-offset-color: #fff; --un-ring-width: 0px; --un-ring-color: rgba(147,197,253,.5); --un-blur: ; --un-brightness: ; --un-contrast: ; --un-drop-shadow: ; --un-grayscale: ; --un-hue-rotate: ; --un-invert: ; --un-saturate: ; --un-sepia: ; --un-backdrop-blur: ; --un-backdrop-brightness: ; --un-backdrop-contrast: ; --un-backdrop-grayscale: ; --un-backdrop-hue-rotate: ; --un-backdrop-invert: ; --un-backdrop-opacity: ; --un-backdrop-saturate: ; --un-backdrop-sepia: ; font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; background-color: rgba(175, 184, 193, 0.2); border-radius: 6px; margin: 0px; padding: 0.2em 0.4em; color: rgb(44, 44, 54); text-align: start;&quot;&gt;pg_data_t *pgdat&lt;/code&gt;&lt;span style=&quot;white-space-collapse: preserve; color: rgb(44, 44, 54); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;）上进行内存回收工作。&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(44, 44, 54); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; white-space-collapse: preserve;&quot;&gt;特别地，它针对内存控制组（cgroup）进行了细致的管理，确保内存回收符合各个cgroup的限制和需求。&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="1000" width="260" height="130" as="geometry" />
         </mxCell>
+        <mxCell id="G9uZSufEg39AA2sRg3oI-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="G9uZSufEg39AA2sRg3oI-4" target="G9uZSufEg39AA2sRg3oI-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G9uZSufEg39AA2sRg3oI-9" value="&lt;div&gt;核心：在 for_each_evictable_lru(lru) 循环中，nr_reclaimed += shrink_list(lru, nr_to_scan, lruvec, sc);&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G9uZSufEg39AA2sRg3oI-8">
+          <mxGeometry x="-0.0355" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="G9uZSufEg39AA2sRg3oI-4" value="&lt;div&gt;static void shrink_node_memcg(struct pglist_data *pgdat, struct mem_cgroup *memcg,&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;struct scan_control *sc, unsigned long *lru_pages)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;定义在mm/vmscan.c中&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;//基本的以node为单位的页面回收函数，kswapd和直接页面回收都调用。&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(44, 44, 54); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;在给定的内存控制组memcg内，根据指定的回收策略，从各个LRU列表（活动/非活动的匿名页和文件页）回收页面，以释放内存。&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="1220" width="320" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="G9uZSufEg39AA2sRg3oI-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G9uZSufEg39AA2sRg3oI-7" target="G9uZSufEg39AA2sRg3oI-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G9uZSufEg39AA2sRg3oI-7" value="&lt;div&gt;static unsigned long shrink_list(enum lru_list lru, unsigned long nr_to_scan,&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;struct lruvec *lruvec, struct scan_control *sc)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="1430" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="G9uZSufEg39AA2sRg3oI-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G9uZSufEg39AA2sRg3oI-10" target="G9uZSufEg39AA2sRg3oI-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="266" y="1610" />
+              <mxPoint x="124" y="1610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9uZSufEg39AA2sRg3oI-14" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G9uZSufEg39AA2sRg3oI-13">
+          <mxGeometry x="-0.2035" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9uZSufEg39AA2sRg3oI-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="G9uZSufEg39AA2sRg3oI-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="266.25" y="1610" as="sourcePoint" />
+            <mxPoint x="530" y="1697" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9uZSufEg39AA2sRg3oI-19" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G9uZSufEg39AA2sRg3oI-18">
+          <mxGeometry x="0.0997" y="3" relative="1" as="geometry">
+            <mxPoint x="-56" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9uZSufEg39AA2sRg3oI-10" value="当前列表活跃？&lt;div&gt;is_active_lru(lru)&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1520" width="152.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="G9uZSufEg39AA2sRg3oI-11" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;shrink_active_list(nr_to_scan, lruvec, sc, lru);&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;定义在mm/vmscan.c中&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;//&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(44, 44, 54); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;尝试从当前活跃列表中回收页面到非活跃列表，以维持两者的健康比例。&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1.25" y="1780" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="G9uZSufEg39AA2sRg3oI-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G9uZSufEg39AA2sRg3oI-12" target="G9uZSufEg39AA2sRg3oI-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G9uZSufEg39AA2sRg3oI-16" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G9uZSufEg39AA2sRg3oI-15">
+          <mxGeometry x="-0.1993" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9uZSufEg39AA2sRg3oI-12" value="对应的非活跃列表&lt;div&gt;处于低水位线？&lt;div&gt;inactive_list_is_low(lruvec,&amp;nbsp;&lt;/div&gt;&lt;div&gt;is_file_lru(lru),&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;sc, true)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="1640" width="287.5" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="G9uZSufEg39AA2sRg3oI-17" value="shrink_inactive_list(nr_to_scan, lruvec, sc, lru);&lt;div&gt;// 定义在mm/vmscan.c中&lt;br&gt;&lt;div&gt;//&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(44, 44, 54); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;尝试从该非活跃列表中直接回收指定数量的页面（换出到磁盘或直接释放）。函数返回实际成功回收的页面数量。&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1667" width="320" height="73" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
