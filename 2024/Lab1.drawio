@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-05T16:38:15.912Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="m6aJqCV9jTaYDw7_LYO_" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-06T03:07:04.506Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="rMK0K-CKKHujGAA7Dz4K" version="24.3.1" type="github">
   <diagram name="第 1 页" id="L96vX1XhK6QXdYlFLpfw">
-    <mxGraphModel dx="1960" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -68,8 +68,18 @@
         <mxCell id="Ul97I4Ve1XMXk0d_GilV-23" value="static int kswapd(void *p)&lt;div&gt;定义在vmscan.c中&lt;/div&gt;&lt;div&gt;/&lt;font style=&quot;font-size: 12px;&quot;&gt;/&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(44, 44, 54); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; white-space-collapse: preserve;&quot;&gt;Linux内核中负责页面交换守护进程（kswapd）的核心实现，它是内存管理系统中的关键后台线程，主要任务是监控内存使用情况并在内存紧张时自动释放页面到交换空间，以保证系统有充足的可用内存。&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="275" y="231" width="277.5" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Ul97I4Ve1XMXk0d_GilV-26" value="balance_pgdat(pg_data_t *pgdat, int order, int classzone_idx)&lt;div&gt;定义在mm/vmscan.c中&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(44, 44, 54); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: left;&quot;&gt;，根据给定的订单和区域索引，执行内存回收操作。它尝试从内存中移除页面，必要时通过交换机制释放物理内存。&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="273" y="410" width="280" height="80" as="geometry" />
+        <mxCell id="G9uZSufEg39AA2sRg3oI-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="413.97" y="510" as="sourcePoint" />
+            <mxPoint x="316.47" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="414" y="520" />
+              <mxPoint x="316" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ul97I4Ve1XMXk0d_GilV-26" value="balance_pgdat(pg_data_t *pgdat, int order, int classzone_idx)&lt;div&gt;定义在mm/vmscan.c中&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(44, 44, 54); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: left;&quot;&gt;根据给定的订单和区域索引，执行内存回收操作。它尝试从内存中移除页面，必要时通过交换机制释放物理内存。&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="267" y="410" width="293" height="100" as="geometry" />
         </mxCell>
         <mxCell id="G9uZSufEg39AA2sRg3oI-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ul97I4Ve1XMXk0d_GilV-33" target="G9uZSufEg39AA2sRg3oI-4">
           <mxGeometry relative="1" as="geometry" />
@@ -142,6 +152,17 @@
         </mxCell>
         <mxCell id="G9uZSufEg39AA2sRg3oI-17" value="shrink_inactive_list(nr_to_scan, lruvec, sc, lru);&lt;div&gt;// 定义在mm/vmscan.c中&lt;br&gt;&lt;div&gt;//&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(44, 44, 54); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;尝试从该非活跃列表中直接回收指定数量的页面（换出到磁盘或直接释放）。函数返回实际成功回收的页面数量。&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="1667" width="320" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="G9uZSufEg39AA2sRg3oI-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G9uZSufEg39AA2sRg3oI-24" target="Ul97I4Ve1XMXk0d_GilV-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G9uZSufEg39AA2sRg3oI-27" value="······" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G9uZSufEg39AA2sRg3oI-26">
+          <mxGeometry x="-0.608" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9uZSufEg39AA2sRg3oI-24" value="unsigned long shrink_page_cache(gfp_t mask)&lt;div&gt;定义在mm/vmscan.c中&lt;/div&gt;&lt;div&gt;//页缓存回收&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="218" y="540" width="196" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
