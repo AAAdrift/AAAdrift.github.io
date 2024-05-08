@@ -1,11 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2024-05-06T03:07:04.506Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="rMK0K-CKKHujGAA7Dz4K" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-08T09:20:49.478Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="0oJjbOsiLF58ANauAXc-" version="24.3.1" type="github">
   <diagram name="第 1 页" id="L96vX1XhK6QXdYlFLpfw">
-    <mxGraphModel dx="1483" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5082" dy="2370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="G9uZSufEg39AA2sRg3oI-21" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;textShadow=0;textOpacity=0;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="1420" width="660" height="450" as="geometry" />
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-41" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="313" width="430" height="367" as="geometry" />
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-11" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.237;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210.62" y="1214" as="sourcePoint" />
+            <mxPoint x="220.17999999999995" y="1264.52" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="214.37" y="1193" />
+              <mxPoint x="282.37" y="1173" />
+              <mxPoint x="329.37" y="1213" />
+              <mxPoint x="319.37" y="1263" />
+              <mxPoint x="282.37" y="1293" />
+              <mxPoint x="239.37" y="1283" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9uZSufEg39AA2sRg3oI-21" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;textShadow=0;textOpacity=0;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-40" y="1530" width="660" height="450" as="geometry" />
         </mxCell>
         <mxCell id="Ul97I4Ve1XMXk0d_GilV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Ul97I4Ve1XMXk0d_GilV-1" target="Ul97I4Ve1XMXk0d_GilV-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -40,16 +57,28 @@
         <mxCell id="Ul97I4Ve1XMXk0d_GilV-15" value="&lt;div&gt;&lt;div&gt;do_try_to_free_pages(struct zonelist *zonelist,&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;struct scan_control *sc)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;定义在mm/vmscan.c中&lt;/div&gt;&lt;div&gt;//循环调整sc的优先级，每次都&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(44, 44, 54); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: left;&quot;&gt;调用&lt;/span&gt;&lt;code style=&quot;color: rgb(44, 44, 54); text-align: left; white-space-collapse: break-spaces; box-sizing: border-box; --un-rotate: 0; --un-rotate-x: 0; --un-rotate-y: 0; --un-rotate-z: 0; --un-scale-x: 1; --un-scale-y: 1; --un-scale-z: 1; --un-skew-x: 0; --un-skew-y: 0; --un-translate-x: 0; --un-translate-y: 0; --un-translate-z: 0; --un-pan-x: ; --un-pan-y: ; --un-pinch-zoom: ; --un-scroll-snap-strictness: proximity; --un-ordinal: ; --un-slashed-zero: ; --un-numeric-figure: ; --un-numeric-spacing: ; --un-numeric-fraction: ; --un-border-spacing-x: 0; --un-border-spacing-y: 0; --un-ring-offset-shadow: 0 0 transparent; --un-ring-shadow: 0 0 transparent; --un-shadow-inset: ; --un-shadow: 0 0 transparent; --un-ring-inset: ; --un-ring-offset-width: 0px; --un-ring-offset-color: #fff; --un-ring-width: 0px; --un-ring-color: rgba(147,197,253,.5); --un-blur: ; --un-brightness: ; --un-contrast: ; --un-drop-shadow: ; --un-grayscale: ; --un-hue-rotate: ; --un-invert: ; --un-saturate: ; --un-sepia: ; --un-backdrop-blur: ; --un-backdrop-brightness: ; --un-backdrop-contrast: ; --un-backdrop-grayscale: ; --un-backdrop-hue-rotate: ; --un-backdrop-invert: ; --un-backdrop-opacity: ; --un-backdrop-saturate: ; --un-backdrop-sepia: ; font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; background-color: rgba(175, 184, 193, 0.2); border-radius: 6px; margin: 0px; padding: 0.2em 0.4em;&quot;&gt;shrink_zones&lt;/code&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(44, 44, 54); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: left;&quot;&gt;遍历内存区域列表，尝试回收页面。&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-120" y="580" width="285" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ul97I4Ve1XMXk0d_GilV-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Ul97I4Ve1XMXk0d_GilV-18" target="Ul97I4Ve1XMXk0d_GilV-33" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Ul97I4Ve1XMXk0d_GilV-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="16.98" y="950" as="sourcePoint" />
+            <mxPoint x="266.9975438596491" y="1000" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="16.98" y="980" />
+              <mxPoint x="266.98" y="980" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Ul97I4Ve1XMXk0d_GilV-35" value="核心：shrink_node(zone-&amp;gt;zone_pgdat, sc);" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Ul97I4Ve1XMXk0d_GilV-34" vertex="1" connectable="0">
           <mxGeometry x="0.0214" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ul97I4Ve1XMXk0d_GilV-18" value="shrink_zones(struct zonelist *zonelist, struct scan_control *sc)&lt;div&gt;定义在mm/vmscan.c中&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-72.5" y="730" width="190" height="70" as="geometry" />
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ul97I4Ve1XMXk0d_GilV-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="22.22222222222217" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ul97I4Ve1XMXk0d_GilV-18" value="shrink_zones(struct zonelist *zonelist, struct scan_control *sc)&lt;div&gt;定义在mm/vmscan.c中&lt;/div&gt;&lt;div&gt;//&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(44, 44, 54); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;试图从系统中回收页面以满足分配请求，仅针对能够满足调用者分配需求的内存区域（zones）&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-72.5" y="730" width="192.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Ul97I4Ve1XMXk0d_GilV-21" value="直接页面回收" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-27.5" y="168" width="100" height="30" as="geometry" />
@@ -68,7 +97,7 @@
         <mxCell id="Ul97I4Ve1XMXk0d_GilV-23" value="static int kswapd(void *p)&lt;div&gt;定义在vmscan.c中&lt;/div&gt;&lt;div&gt;/&lt;font style=&quot;font-size: 12px;&quot;&gt;/&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(44, 44, 54); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; white-space-collapse: preserve;&quot;&gt;Linux内核中负责页面交换守护进程（kswapd）的核心实现，它是内存管理系统中的关键后台线程，主要任务是监控内存使用情况并在内存紧张时自动释放页面到交换空间，以保证系统有充足的可用内存。&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="275" y="231" width="277.5" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="G9uZSufEg39AA2sRg3oI-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="G9uZSufEg39AA2sRg3oI-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="413.97" y="510" as="sourcePoint" />
             <mxPoint x="316.47" y="540" as="targetPoint" />
@@ -78,91 +107,291 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ul97I4Ve1XMXk0d_GilV-26" target="Xcz-Zy_UMCrFkftO2yXA-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Ul97I4Ve1XMXk0d_GilV-26" value="balance_pgdat(pg_data_t *pgdat, int order, int classzone_idx)&lt;div&gt;定义在mm/vmscan.c中&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(44, 44, 54); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: left;&quot;&gt;根据给定的订单和区域索引，执行内存回收操作。它尝试从内存中移除页面，必要时通过交换机制释放物理内存。&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="267" y="410" width="293" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="G9uZSufEg39AA2sRg3oI-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ul97I4Ve1XMXk0d_GilV-33" target="G9uZSufEg39AA2sRg3oI-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="G9uZSufEg39AA2sRg3oI-6" value="核心：在对cgroup的遍历循环中的shrink_node_memcg(pgdat, memcg, sc, &amp;amp;lru_pages);" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G9uZSufEg39AA2sRg3oI-5">
-          <mxGeometry x="-0.0667" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="G9uZSufEg39AA2sRg3oI-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Ul97I4Ve1XMXk0d_GilV-33" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="1180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ul97I4Ve1XMXk0d_GilV-33" value="static bool shrink_node(pg_data_t *pgdat, struct scan_control *sc)&lt;div&gt;定义在mm/vmscan.c中&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;//&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve; color: rgb(44, 44, 54); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;在指定的内存节点（&lt;/span&gt;&lt;code style=&quot;white-space-collapse: break-spaces; box-sizing: border-box; --un-rotate: 0; --un-rotate-x: 0; --un-rotate-y: 0; --un-rotate-z: 0; --un-scale-x: 1; --un-scale-y: 1; --un-scale-z: 1; --un-skew-x: 0; --un-skew-y: 0; --un-translate-x: 0; --un-translate-y: 0; --un-translate-z: 0; --un-pan-x: ; --un-pan-y: ; --un-pinch-zoom: ; --un-scroll-snap-strictness: proximity; --un-ordinal: ; --un-slashed-zero: ; --un-numeric-figure: ; --un-numeric-spacing: ; --un-numeric-fraction: ; --un-border-spacing-x: 0; --un-border-spacing-y: 0; --un-ring-offset-shadow: 0 0 transparent; --un-ring-shadow: 0 0 transparent; --un-shadow-inset: ; --un-shadow: 0 0 transparent; --un-ring-inset: ; --un-ring-offset-width: 0px; --un-ring-offset-color: #fff; --un-ring-width: 0px; --un-ring-color: rgba(147,197,253,.5); --un-blur: ; --un-brightness: ; --un-contrast: ; --un-drop-shadow: ; --un-grayscale: ; --un-hue-rotate: ; --un-invert: ; --un-saturate: ; --un-sepia: ; --un-backdrop-blur: ; --un-backdrop-brightness: ; --un-backdrop-contrast: ; --un-backdrop-grayscale: ; --un-backdrop-hue-rotate: ; --un-backdrop-invert: ; --un-backdrop-opacity: ; --un-backdrop-saturate: ; --un-backdrop-sepia: ; font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; background-color: rgba(175, 184, 193, 0.2); border-radius: 6px; margin: 0px; padding: 0.2em 0.4em; color: rgb(44, 44, 54); text-align: start;&quot;&gt;pg_data_t *pgdat&lt;/code&gt;&lt;span style=&quot;white-space-collapse: preserve; color: rgb(44, 44, 54); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;）上进行内存回收工作。&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(44, 44, 54); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; white-space-collapse: preserve;&quot;&gt;特别地，它针对内存控制组（cgroup）进行了细致的管理，确保内存回收符合各个cgroup的限制和需求。&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="1000" width="260" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="G9uZSufEg39AA2sRg3oI-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="G9uZSufEg39AA2sRg3oI-4" target="G9uZSufEg39AA2sRg3oI-7">
+        <mxCell id="G9uZSufEg39AA2sRg3oI-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="G9uZSufEg39AA2sRg3oI-4" target="G9uZSufEg39AA2sRg3oI-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G9uZSufEg39AA2sRg3oI-9" value="&lt;div&gt;核心：在 for_each_evictable_lru(lru) 循环中，nr_reclaimed += shrink_list(lru, nr_to_scan, lruvec, sc);&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G9uZSufEg39AA2sRg3oI-8">
+        <mxCell id="G9uZSufEg39AA2sRg3oI-9" value="&lt;div&gt;核心：在 for_each_evictable_lru(lru) 循环中，nr_reclaimed += shrink_list(lru, nr_to_scan, lruvec, sc);&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="G9uZSufEg39AA2sRg3oI-8" vertex="1" connectable="0">
           <mxGeometry x="-0.0355" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9uZSufEg39AA2sRg3oI-4" value="&lt;div&gt;static void shrink_node_memcg(struct pglist_data *pgdat, struct mem_cgroup *memcg,&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;struct scan_control *sc, unsigned long *lru_pages)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;定义在mm/vmscan.c中&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;//基本的以node为单位的页面回收函数，kswapd和直接页面回收都调用。&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(44, 44, 54); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;在给定的内存控制组memcg内，根据指定的回收策略，从各个LRU列表（活动/非活动的匿名页和文件页）回收页面，以释放内存。&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="1220" width="320" height="130" as="geometry" />
+        <mxCell id="G9uZSufEg39AA2sRg3oI-4" value="&lt;div&gt;static void shrink_node_memcg(struct pglist_data *pgdat, struct mem_cgroup *memcg,&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;struct scan_control *sc, unsigned long *lru_pages)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;定义在mm/vmscan.c中&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;//基本的以node为单位的页面回收函数，kswapd和直接页面回收都调用。&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(44, 44, 54); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;在给定的内存控制组memcg内，根据指定的回收策略，从各个LRU列表（活动/非活动的匿名页和文件页）回收页面，以释放内存。&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="1330" width="320" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="G9uZSufEg39AA2sRg3oI-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G9uZSufEg39AA2sRg3oI-7" target="G9uZSufEg39AA2sRg3oI-10">
+        <mxCell id="G9uZSufEg39AA2sRg3oI-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="G9uZSufEg39AA2sRg3oI-7" target="G9uZSufEg39AA2sRg3oI-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G9uZSufEg39AA2sRg3oI-7" value="&lt;div&gt;static unsigned long shrink_list(enum lru_list lru, unsigned long nr_to_scan,&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;struct lruvec *lruvec, struct scan_control *sc)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;定义在mm/vmscan.c中&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="165" y="1430" width="210" height="70" as="geometry" />
+        <mxCell id="G9uZSufEg39AA2sRg3oI-7" value="&lt;div&gt;static unsigned long shrink_list(enum lru_list lru, unsigned long nr_to_scan,&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;struct lruvec *lruvec, struct scan_control *sc)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;定义在mm/vmscan.c中&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="165" y="1540" width="210" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="G9uZSufEg39AA2sRg3oI-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G9uZSufEg39AA2sRg3oI-10" target="G9uZSufEg39AA2sRg3oI-12">
+        <mxCell id="G9uZSufEg39AA2sRg3oI-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="G9uZSufEg39AA2sRg3oI-10" target="G9uZSufEg39AA2sRg3oI-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="266" y="1610" />
-              <mxPoint x="124" y="1610" />
+              <mxPoint x="266" y="1720" />
+              <mxPoint x="124" y="1720" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9uZSufEg39AA2sRg3oI-14" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G9uZSufEg39AA2sRg3oI-13">
+        <mxCell id="G9uZSufEg39AA2sRg3oI-14" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="G9uZSufEg39AA2sRg3oI-13" vertex="1" connectable="0">
           <mxGeometry x="-0.2035" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9uZSufEg39AA2sRg3oI-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="G9uZSufEg39AA2sRg3oI-17">
+        <mxCell id="G9uZSufEg39AA2sRg3oI-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="G9uZSufEg39AA2sRg3oI-17" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="266.25" y="1610" as="sourcePoint" />
-            <mxPoint x="530" y="1697" as="targetPoint" />
+            <mxPoint x="266.25" y="1720" as="sourcePoint" />
+            <mxPoint x="530" y="1807" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9uZSufEg39AA2sRg3oI-19" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G9uZSufEg39AA2sRg3oI-18">
+        <mxCell id="G9uZSufEg39AA2sRg3oI-19" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="G9uZSufEg39AA2sRg3oI-18" vertex="1" connectable="0">
           <mxGeometry x="0.0997" y="3" relative="1" as="geometry">
             <mxPoint x="-56" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9uZSufEg39AA2sRg3oI-10" value="当前列表活跃？&lt;div&gt;is_active_lru(lru)&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="1520" width="152.5" height="70" as="geometry" />
+        <mxCell id="G9uZSufEg39AA2sRg3oI-10" value="当前列表活跃？&lt;div&gt;is_active_lru(lru)&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="1630" width="152.5" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="G9uZSufEg39AA2sRg3oI-11" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;shrink_active_list(nr_to_scan, lruvec, sc, lru);&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;定义在mm/vmscan.c中&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;//&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(44, 44, 54); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;尝试从当前活跃列表中回收页面到非活跃列表，以维持两者的健康比例。&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1.25" y="1780" width="250" height="70" as="geometry" />
+        <mxCell id="G9uZSufEg39AA2sRg3oI-11" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;shrink_active_list(nr_to_scan, lruvec, sc, lru);&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;定义在mm/vmscan.c中&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;//&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(44, 44, 54); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;尝试从当前活跃列表中回收页面到非活跃列表，以维持两者的健康比例。&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1.25" y="1890" width="250" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="G9uZSufEg39AA2sRg3oI-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G9uZSufEg39AA2sRg3oI-12" target="G9uZSufEg39AA2sRg3oI-11">
+        <mxCell id="G9uZSufEg39AA2sRg3oI-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="G9uZSufEg39AA2sRg3oI-12" target="G9uZSufEg39AA2sRg3oI-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G9uZSufEg39AA2sRg3oI-16" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G9uZSufEg39AA2sRg3oI-15">
+        <mxCell id="G9uZSufEg39AA2sRg3oI-16" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="G9uZSufEg39AA2sRg3oI-15" vertex="1" connectable="0">
           <mxGeometry x="-0.1993" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9uZSufEg39AA2sRg3oI-12" value="对应的非活跃列表&lt;div&gt;处于低水位线？&lt;div&gt;inactive_list_is_low(lruvec,&amp;nbsp;&lt;/div&gt;&lt;div&gt;is_file_lru(lru),&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;sc, true)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="1640" width="287.5" height="104" as="geometry" />
+        <mxCell id="G9uZSufEg39AA2sRg3oI-12" value="对应的非活跃列表&lt;div&gt;处于低水位线？&lt;div&gt;inactive_list_is_low(lruvec,&amp;nbsp;&lt;/div&gt;&lt;div&gt;is_file_lru(lru),&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;sc, true)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="1750" width="287.5" height="104" as="geometry" />
         </mxCell>
-        <mxCell id="G9uZSufEg39AA2sRg3oI-17" value="shrink_inactive_list(nr_to_scan, lruvec, sc, lru);&lt;div&gt;// 定义在mm/vmscan.c中&lt;br&gt;&lt;div&gt;//&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(44, 44, 54); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;尝试从该非活跃列表中直接回收指定数量的页面（换出到磁盘或直接释放）。函数返回实际成功回收的页面数量。&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="1667" width="320" height="73" as="geometry" />
+        <mxCell id="G9uZSufEg39AA2sRg3oI-17" value="shrink_inactive_list(nr_to_scan, lruvec, sc, lru);&lt;div&gt;// 定义在mm/vmscan.c中&lt;br&gt;&lt;div&gt;//&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(44, 44, 54); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;尝试从该非活跃列表中直接回收指定数量的页面（换出到磁盘或直接释放）。函数返回实际成功回收的页面数量。&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="1777" width="320" height="73" as="geometry" />
         </mxCell>
-        <mxCell id="G9uZSufEg39AA2sRg3oI-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G9uZSufEg39AA2sRg3oI-24" target="Ul97I4Ve1XMXk0d_GilV-15">
+        <mxCell id="G9uZSufEg39AA2sRg3oI-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="G9uZSufEg39AA2sRg3oI-24" target="Ul97I4Ve1XMXk0d_GilV-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G9uZSufEg39AA2sRg3oI-27" value="······" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G9uZSufEg39AA2sRg3oI-26">
+        <mxCell id="G9uZSufEg39AA2sRg3oI-27" value="······" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="G9uZSufEg39AA2sRg3oI-26" vertex="1" connectable="0">
           <mxGeometry x="-0.608" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9uZSufEg39AA2sRg3oI-24" value="unsigned long shrink_page_cache(gfp_t mask)&lt;div&gt;定义在mm/vmscan.c中&lt;/div&gt;&lt;div&gt;//页缓存回收&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="G9uZSufEg39AA2sRg3oI-24" value="unsigned long shrink_page_cache(gfp_t mask)&lt;div&gt;定义在mm/vmscan.c中&lt;/div&gt;&lt;div&gt;//页缓存回收&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="218" y="540" width="196" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="G9uZSufEg39AA2sRg3oI-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="970" as="sourcePoint" />
+            <mxPoint x="-10" y="1802" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="1150" />
+              <mxPoint x="270" y="1150" />
+              <mxPoint x="-100" y="1150" />
+              <mxPoint x="-100" y="1340" />
+              <mxPoint x="-100" y="1802" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-12" value="&lt;font style=&quot;text-wrap: nowrap; font-size: 8px;&quot;&gt;核心：在对cgroup的遍&lt;/font&gt;&lt;div style=&quot;font-size: 11px; text-wrap: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;历中shrink_node_memcg(pgdat,&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px; text-wrap: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;memcg, sc, &amp;amp;lru_pages);&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="236.25" y="1210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="G9uZSufEg39AA2sRg3oI-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="1290" as="sourcePoint" />
+            <mxPoint x="340" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ul97I4Ve1XMXk0d_GilV-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="414" y="520" />
+              <mxPoint x="740" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-18" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="710" y="540" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-16" value="当sc.priority &gt;= 1时循环" style="text;whiteSpace=wrap;" vertex="1" parent="Xcz-Zy_UMCrFkftO2yXA-18">
+          <mxGeometry x="20" y="40" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-17" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.237;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Xcz-Zy_UMCrFkftO2yXA-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2.5" y="60" as="sourcePoint" />
+            <mxPoint x="0.8099999999999454" y="91.51999999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="30" />
+              <mxPoint x="63" />
+              <mxPoint x="110" y="40" />
+              <mxPoint x="100" y="90" />
+              <mxPoint x="63" y="120" />
+              <mxPoint x="20" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Xcz-Zy_UMCrFkftO2yXA-18" target="Xcz-Zy_UMCrFkftO2yXA-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="49" y="120" as="sourcePoint" />
+            <mxPoint x="50" y="41" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="49" y="130" />
+              <mxPoint x="49" y="180" />
+              <mxPoint y="180" />
+              <mxPoint x="15" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-21" value="age_active_anon(pgdat, &amp;amp;sc);" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Xcz-Zy_UMCrFkftO2yXA-20">
+          <mxGeometry x="-0.1522" relative="1" as="geometry">
+            <mxPoint x="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Xcz-Zy_UMCrFkftO2yXA-22" target="Ul97I4Ve1XMXk0d_GilV-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="447" y="1005" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1005" y="1065" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-26" value="核心 ：shrink_node(pgdat, sc);" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Xcz-Zy_UMCrFkftO2yXA-25">
+          <mxGeometry x="-0.0562" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-22" value="&lt;div&gt;static bool kswapd_shrink_node(pg_data_t *pgdat,&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;struct scan_control *sc)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;定义在mm/vmscan.c中&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="780" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Xcz-Zy_UMCrFkftO2yXA-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="650" as="sourcePoint" />
+            <mxPoint x="982" y="725" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="660" />
+              <mxPoint x="780" y="700" />
+              <mxPoint x="1005" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-24" value="kswapd_shrink_node(pgdat, &amp;amp;sc)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Xcz-Zy_UMCrFkftO2yXA-23">
+          <mxGeometry x="-0.08" y="-2" relative="1" as="geometry">
+            <mxPoint x="48" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-27" value="遍历 zonelist中每个zone&#xa;for_each_zone_zonelist&#xa;_nodemask" style="text;whiteSpace=wrap;fontSize=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-21.25" y="890" width="131.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-29" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-25" y="910" as="sourcePoint" />
+            <mxPoint x="-27" y="920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-20" y="890" />
+              <mxPoint x="10" y="870" />
+              <mxPoint x="40" y="870" />
+              <mxPoint x="70" y="900" />
+              <mxPoint x="60" y="940" />
+              <mxPoint y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-31" value="&lt;div style=&quot;text-align: center;&quot;&gt;页面缓存回收&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;#ifdef CONFIG_SHRINK_PAGECACHE&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;if (vm_cache_limit_mbytes &amp;amp;&amp;amp; page_cache_over_limit() &amp;amp;&amp;amp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;vm_cache_reclaim_enable)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&#x9;&lt;/span&gt;shrink_page_cache(GFP_KERNEL);&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;#endif&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="430" y="540" width="255" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-32" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="590" y="780" width="270" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-14" value="&lt;div&gt;static void age_active_anon(struct pglist_data *pgdat,&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;struct scan_control *sc)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;定义在mm/vmscan.c中&lt;/div&gt;&lt;div&gt;//&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(44, 44, 54); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;通过老化活跃匿名页面，促使它们在未来的页面回收过程中更容易被选中。&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Xcz-Zy_UMCrFkftO2yXA-32">
+          <mxGeometry width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-19" value="" style="group" vertex="1" connectable="0" parent="Xcz-Zy_UMCrFkftO2yXA-32">
+          <mxGeometry x="81" y="70" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-4" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="Xcz-Zy_UMCrFkftO2yXA-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2.5" y="60" as="sourcePoint" />
+            <mxPoint x="1" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="30" />
+              <mxPoint x="63" />
+              <mxPoint x="110" y="40" />
+              <mxPoint x="100" y="90" />
+              <mxPoint x="63" y="120" />
+              <mxPoint x="20" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-6" value="遍历每个&lt;div&gt;内存控制组&lt;div&gt;memcg&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Xcz-Zy_UMCrFkftO2yXA-19">
+          <mxGeometry x="10" y="40" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-39" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;inactive_list&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1105" y="313" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-42" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1940" y="313" width="430" height="367" as="geometry" />
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-43" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;active_list&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1996" y="321" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-49" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;referenced&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="520" width="118" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-51" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;unreferenced&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1244" y="382" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-52" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;unreferenced&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2118" y="379" width="116" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-53" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;referenced&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2121" y="510" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-55" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Xcz-Zy_UMCrFkftO2yXA-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1354" y="430" as="sourcePoint" />
+            <mxPoint x="1294" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1410" y="430" />
+              <mxPoint x="1430" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-63" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Xcz-Zy_UMCrFkftO2yXA-49" target="Xcz-Zy_UMCrFkftO2yXA-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1600" y="580" as="sourcePoint" />
+            <mxPoint x="1650" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1650" y="580" />
+              <mxPoint x="1600" y="430" />
+              <mxPoint x="1750" y="450" />
+              <mxPoint x="1960" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-65" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Xcz-Zy_UMCrFkftO2yXA-52" target="Xcz-Zy_UMCrFkftO2yXA-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1920" y="750" as="sourcePoint" />
+            <mxPoint x="1870" y="800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2070" y="460" />
+              <mxPoint x="2050" y="490" />
+              <mxPoint x="2090" y="570" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
