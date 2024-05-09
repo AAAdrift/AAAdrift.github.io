@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-08T11:39:00.114Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="gNJk7C66x276jSXJrWxv" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-09T03:00:54.200Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="3LBPd5MRrXYnK69FgS0A" version="24.3.1" type="github">
   <diagram name="第 1 页" id="L96vX1XhK6QXdYlFLpfw">
-    <mxGraphModel dx="2136" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2167" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,7 +21,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9uZSufEg39AA2sRg3oI-21" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;textShadow=0;textOpacity=0;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="G9uZSufEg39AA2sRg3oI-21" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;textShadow=0;textOpacity=0;fillColor=none;strokeColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="-40" y="1530" width="660" height="450" as="geometry" />
         </mxCell>
         <mxCell id="Ul97I4Ve1XMXk0d_GilV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Ul97I4Ve1XMXk0d_GilV-1" target="Ul97I4Ve1XMXk0d_GilV-2" edge="1">
@@ -180,7 +180,11 @@
           <mxGeometry x="-20" y="1750" width="287.5" height="104" as="geometry" />
         </mxCell>
         <mxCell id="Xcz-Zy_UMCrFkftO2yXA-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G9uZSufEg39AA2sRg3oI-17" target="Xcz-Zy_UMCrFkftO2yXA-70">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="448" y="1850" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Xcz-Zy_UMCrFkftO2yXA-72" value="&lt;div&gt;核心：nr_reclaimed = shrink_page_list&lt;/div&gt;&lt;div&gt;(&amp;amp;page_list, pgdat, sc, 0, &amp;amp;stat, false);&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Xcz-Zy_UMCrFkftO2yXA-71">
           <mxGeometry x="-0.2347" y="-2" relative="1" as="geometry">
@@ -401,8 +405,31 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-70" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;static unsigned long shrink_page_list(struct list_head *page_list,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&#x9;&#x9;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; struct pglist_data *pgdat,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&#x9;&#x9;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; struct scan_control *sc,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&#x9;&#x9;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; enum ttu_flags ttu_flags,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&#x9;&#x9;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; struct reclaim_stat *stat,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&#x9;&#x9;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; bool force_reclaim)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="2020" width="120" height="60" as="geometry" />
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Xcz-Zy_UMCrFkftO2yXA-70" target="Xcz-Zy_UMCrFkftO2yXA-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Xcz-Zy_UMCrFkftO2yXA-70" target="Xcz-Zy_UMCrFkftO2yXA-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-70" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;static unsigned long shrink_page_list(struct list_head *page_list,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;struct pglist_data *pgdat,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;struct scan_control *sc,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;enum ttu_flags ttu_flags,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;struct reclaim_stat *stat,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;bool force_reclaim)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;定义在vmscan.c&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;// 具体执行page_list中存储的页面的回收，根据页面的不同状态分门别类进行处理。&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="200" y="2080" width="495" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-73" value="&lt;div&gt;&lt;span style=&quot;text-align: start; background-color: rgb(255, 255, 255); font-size: 16px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji&quot; color=&quot;#2c2c36&quot;&gt;&lt;div&gt;static enum page_references page_check_references(struct page *page, struct scan_control *sc)&lt;/div&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji&quot; color=&quot;#2c2c36&quot;&gt;&lt;span style=&quot;font-size: 16px; white-space-collapse: preserve;&quot;&gt;// 定义在mm/vmscan.c中&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;color: rgb(44, 44, 54); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;检查给定页面的引用情况，并根据不同的条件返回页面应如何处理的枚举值（&lt;code style=&quot;white-space-collapse: break-spaces; box-sizing: border-box; --un-rotate: 0; --un-rotate-x: 0; --un-rotate-y: 0; --un-rotate-z: 0; --un-scale-x: 1; --un-scale-y: 1; --un-scale-z: 1; --un-skew-x: 0; --un-skew-y: 0; --un-translate-x: 0; --un-translate-y: 0; --un-translate-z: 0; --un-pan-x: ; --un-pan-y: ; --un-pinch-zoom: ; --un-scroll-snap-strictness: proximity; --un-ordinal: ; --un-slashed-zero: ; --un-numeric-figure: ; --un-numeric-spacing: ; --un-numeric-fraction: ; --un-border-spacing-x: 0; --un-border-spacing-y: 0; --un-ring-offset-shadow: 0 0 transparent; --un-ring-shadow: 0 0 transparent; --un-shadow-inset: ; --un-shadow: 0 0 transparent; --un-ring-inset: ; --un-ring-offset-width: 0px; --un-ring-offset-color: #fff; --un-ring-width: 0px; --un-ring-color: rgba(147,197,253,.5); --un-blur: ; --un-brightness: ; --un-contrast: ; --un-drop-shadow: ; --un-grayscale: ; --un-hue-rotate: ; --un-invert: ; --un-saturate: ; --un-sepia: ; --un-backdrop-blur: ; --un-backdrop-brightness: ; --un-backdrop-contrast: ; --un-backdrop-grayscale: ; --un-backdrop-hue-rotate: ; --un-backdrop-invert: ; --un-backdrop-opacity: ; --un-backdrop-saturate: ; --un-backdrop-sepia: ; font-size: 13.6px; font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; background-color: rgba(175, 184, 193, 0.2); border-radius: 6px; margin: 0px; padding: 0.2em 0.4em;&quot;&gt;enum page_references&lt;/code&gt;），用于决定页面是否应该被回收、激活或保留。&lt;/div&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-107.5" y="2250" width="387.5" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-75" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Xcz-Zy_UMCrFkftO2yXA-73" target="Xcz-Zy_UMCrFkftO2yXA-76">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="314" y="2320" as="sourcePoint" />
+            <mxPoint x="364" y="2270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-77" value="PAGEREF_RECLAIM&lt;div&gt;或PAGEREF_RECLAIM_CLEAN&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Xcz-Zy_UMCrFkftO2yXA-75">
+          <mxGeometry x="-0.1635" y="1" relative="1" as="geometry">
+            <mxPoint x="19" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xcz-Zy_UMCrFkftO2yXA-76" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2300" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
