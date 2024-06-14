@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-06-14T14:26:08.052Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="B1ygZPu8po4B2DcfjvyE" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-14T15:20:23.991Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="g-_SAvEW-8IGGvKFUJL8" version="24.5.4" type="github">
   <diagram name="第 1 页" id="hPulBh3gC0QqBDuybaSG">
-    <mxGraphModel dx="1393" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2607" dy="1188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-njEmwGsimaOW8p4Tyl_-79" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="2770" width="610" height="120" as="geometry" />
+        </mxCell>
         <mxCell id="PmWdC25WH9u9d0af73HB-65" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=default;fillColor=none;strokeColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="985" y="690" width="1840" height="900" as="geometry" />
         </mxCell>
@@ -30,14 +33,6 @@
               <mxPoint x="640" y="275" />
               <mxPoint x="640" y="480" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PmWdC25WH9u9d0af73HB-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PmWdC25WH9u9d0af73HB-2" target="PmWdC25WH9u9d0af73HB-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="PmWdC25WH9u9d0af73HB-31" value="p-&amp;gt;state = TASK_NEW;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="PmWdC25WH9u9d0af73HB-24" vertex="1" connectable="0">
-          <mxGeometry x="-0.3537" y="3" relative="1" as="geometry">
-            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PmWdC25WH9u9d0af73HB-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PmWdC25WH9u9d0af73HB-2" target="PmWdC25WH9u9d0af73HB-32" edge="1">
@@ -75,12 +70,6 @@
         </mxCell>
         <mxCell id="PmWdC25WH9u9d0af73HB-3" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;static void __sched_fork(unsigned long clone_flags, struct task_struct *p)&lt;/span&gt;&lt;div&gt;//&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;// 定义在kernel/sched/core.c中&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(44, 44, 54); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;进行一些基础的调度前准备&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="150" width="270" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PmWdC25WH9u9d0af73HB-6" value="新建态" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="1520" y="310" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="PmWdC25WH9u9d0af73HB-7" value="进程5状态转换图" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1540" y="220" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PmWdC25WH9u9d0af73HB-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PmWdC25WH9u9d0af73HB-10" target="PmWdC25WH9u9d0af73HB-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -608,24 +597,24 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-njEmwGsimaOW8p4Tyl_-42" value="&lt;div style=&quot;line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;static void &lt;/font&gt;&lt;span style=&quot;font-size: 11px; font-family: gBsJst8QgJAjLQxQNtJx; background-color: initial;&quot;&gt;enqueue_task_fair(struct rq *rq, &lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 11px; font-family: gBsJst8QgJAjLQxQNtJx; background-color: initial;&quot;&gt;struct task_struct *p, int flags)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space: normal;&quot;&gt;&lt;font face=&quot;gBsJst8QgJAjLQxQNtJx&quot;&gt;// 定义在kernel/sche/fair.c中&lt;/font&gt;&lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="505" y="2830" width="260" height="60" as="geometry" />
+          <mxGeometry x="550" y="2800" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-njEmwGsimaOW8p4Tyl_-43" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;③任务出队入队&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2720" width="300" height="50" as="geometry" />
+          <mxGeometry x="30" y="2810" width="300" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-njEmwGsimaOW8p4Tyl_-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-njEmwGsimaOW8p4Tyl_-44" target="-njEmwGsimaOW8p4Tyl_-47">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="620" y="3195" />
-              <mxPoint x="620" y="3195" />
+              <mxPoint x="677.5" y="3255" />
+              <mxPoint x="677.5" y="3255" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="-njEmwGsimaOW8p4Tyl_-44" value="&lt;div style=&quot;line-height: 19px; white-space: pre;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;static u64 sched_vslice(struct cfs_rq *cfs_rq,&lt;/font&gt;&lt;span style=&quot;font-size: 11px; font-family: kE0WyA3uPLQVEAcrQN6S; background-color: initial;&quot;&gt; struct sched_entity *se)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px; white-space: pre;&quot;&gt;&lt;font face=&quot;kE0WyA3uPLQVEAcrQN6S&quot; style=&quot;font-size: 11px;&quot;&gt;// 定义在kernel/sched/fair.c中&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px; white-space: pre;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;text-align: left; text-indent: 32px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;计算即将被插入就绪队列的&lt;/span&gt;&lt;code style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; list-style: none; word-break: break-word; text-align: left; text-indent: 32px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;wall-time slice&lt;/code&gt;&lt;span style=&quot;text-align: left; text-indent: 32px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;，再按照任务的权重信息转换为虚拟时间得到&lt;/span&gt;&lt;code style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; list-style: none; word-break: break-word; text-align: left; text-indent: 32px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;vruntime slice&lt;/code&gt;&lt;span style=&quot;text-align: left; text-indent: 32px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;。&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="192.5" y="3160" width="380" height="90" as="geometry" />
+          <mxGeometry x="250" y="3220" width="380" height="90" as="geometry" />
         </mxCell>
         <mxCell id="-njEmwGsimaOW8p4Tyl_-46" value="&lt;span style=&quot;font-size: 36px;&quot;&gt;④任务排序标准：&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 36px;&quot;&gt;runtime &amp;amp; vruntime&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="2960" width="740" height="70" as="geometry" />
+          <mxGeometry x="-170" y="3100" width="740" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-njEmwGsimaOW8p4Tyl_-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-njEmwGsimaOW8p4Tyl_-47" target="-njEmwGsimaOW8p4Tyl_-49">
           <mxGeometry relative="1" as="geometry" />
@@ -634,13 +623,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-njEmwGsimaOW8p4Tyl_-47" value="&lt;div style=&quot;line-height: 19px; white-space: pre;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;calc_delta_fair(sched_slice(cfs_rq, se), se)&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="3180" width="250" height="30" as="geometry" />
+          <mxGeometry x="677.5" y="3240" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-njEmwGsimaOW8p4Tyl_-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-njEmwGsimaOW8p4Tyl_-49" target="-njEmwGsimaOW8p4Tyl_-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-njEmwGsimaOW8p4Tyl_-49" value="&lt;div style=&quot;line-height: 19px; white-space: pre;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;static u64 sched_slice(struct &lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px; white-space: pre;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;cfs_rq *cfs_rq, &lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px; white-space: pre;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;struct sched_entity *se)&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="900" y="3162.5" width="150" height="65" as="geometry" />
+          <mxGeometry x="957.5" y="3222.5" width="150" height="65" as="geometry" />
         </mxCell>
         <mxCell id="-njEmwGsimaOW8p4Tyl_-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-njEmwGsimaOW8p4Tyl_-51" target="-njEmwGsimaOW8p4Tyl_-54">
           <mxGeometry relative="1" as="geometry" />
@@ -651,14 +640,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-njEmwGsimaOW8p4Tyl_-51" value="&lt;div style=&quot;line-height: 19px; white-space: pre;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;u64 slice = __sched_period(cfs_rq-&amp;gt;nr_running + !se-&amp;gt;on_rq);&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px; white-space: pre;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;// 定义在kernel/sched/fair.c中&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px; white-space: pre;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;color: rgb(44, 44, 54); text-align: start; text-wrap: wrap;&quot;&gt;计算初始的slice大小。&lt;/span&gt;&lt;code style=&quot;--un-rotate: 0; --un-rotate-x: 0; --un-rotate-y: 0; --un-rotate-z: 0; --un-scale-x: 1; --un-scale-y: 1; --un-scale-z: 1; --un-skew-x: 0; --un-skew-y: 0; --un-translate-x: 0; --un-translate-y: 0; --un-translate-z: 0; --un-pan-x: ; --un-pan-y: ; --un-pinch-zoom: ; --un-scroll-snap-strictness: proximity; --un-ordinal: ; --un-slashed-zero: ; --un-numeric-figure: ; --un-numeric-spacing: ; --un-numeric-fraction: ; --un-border-spacing-x: 0; --un-border-spacing-y: 0; --un-ring-offset-shadow: 0 0 transparent; --un-ring-shadow: 0 0 transparent; --un-shadow-inset: ; --un-shadow: 0 0 transparent; --un-ring-inset: ; --un-ring-offset-width: 0px; --un-ring-offset-color: #fff; --un-ring-width: 0px; --un-ring-color: rgba(147,197,253,.5); --un-blur: ; --un-brightness: ; --un-contrast: ; --un-drop-shadow: ; --un-grayscale: ; --un-hue-rotate: ; --un-invert: ; --un-saturate: ; --un-sepia: ; --un-backdrop-blur: ; --un-backdrop-brightness: ; --un-backdrop-contrast: ; --un-backdrop-grayscale: ; --un-backdrop-hue-rotate: ; --un-backdrop-invert: ; --un-backdrop-opacity: ; --un-backdrop-saturate: ; --un-backdrop-sepia: ; box-sizing: border-box; border-radius: 6px; margin: 0px; padding: 0.2em 0.4em; white-space: break-spaces; color: rgb(44, 44, 54); text-align: start;&quot; data-spm-anchor-id=&quot;5176.28103460.0.i12.521a3da21XkWCu&quot;&gt;__sched_period()&lt;/code&gt;&lt;span style=&quot;color: rgb(44, 44, 54); text-align: start; text-wrap: wrap;&quot;&gt;函数根据当前运行队列中的活动任务数量（&lt;/span&gt;&lt;code style=&quot;--un-rotate: 0; --un-rotate-x: 0; --un-rotate-y: 0; --un-rotate-z: 0; --un-scale-x: 1; --un-scale-y: 1; --un-scale-z: 1; --un-skew-x: 0; --un-skew-y: 0; --un-translate-x: 0; --un-translate-y: 0; --un-translate-z: 0; --un-pan-x: ; --un-pan-y: ; --un-pinch-zoom: ; --un-scroll-snap-strictness: proximity; --un-ordinal: ; --un-slashed-zero: ; --un-numeric-figure: ; --un-numeric-spacing: ; --un-numeric-fraction: ; --un-border-spacing-x: 0; --un-border-spacing-y: 0; --un-ring-offset-shadow: 0 0 transparent; --un-ring-shadow: 0 0 transparent; --un-shadow-inset: ; --un-shadow: 0 0 transparent; --un-ring-inset: ; --un-ring-offset-width: 0px; --un-ring-offset-color: #fff; --un-ring-width: 0px; --un-ring-color: rgba(147,197,253,.5); --un-blur: ; --un-brightness: ; --un-contrast: ; --un-drop-shadow: ; --un-grayscale: ; --un-hue-rotate: ; --un-invert: ; --un-saturate: ; --un-sepia: ; --un-backdrop-blur: ; --un-backdrop-brightness: ; --un-backdrop-contrast: ; --un-backdrop-grayscale: ; --un-backdrop-hue-rotate: ; --un-backdrop-invert: ; --un-backdrop-opacity: ; --un-backdrop-saturate: ; --un-backdrop-sepia: ; box-sizing: border-box; border-radius: 6px; margin: 0px; padding: 0.2em 0.4em; white-space: break-spaces; color: rgb(44, 44, 54); text-align: start;&quot;&gt;nr_running&lt;/code&gt;&lt;span style=&quot;color: rgb(44, 44, 54); text-align: start; text-wrap: wrap;&quot;&gt;）和当前任务是否在就绪队列中（&lt;/span&gt;&lt;code style=&quot;--un-rotate: 0; --un-rotate-x: 0; --un-rotate-y: 0; --un-rotate-z: 0; --un-scale-x: 1; --un-scale-y: 1; --un-scale-z: 1; --un-skew-x: 0; --un-skew-y: 0; --un-translate-x: 0; --un-translate-y: 0; --un-translate-z: 0; --un-pan-x: ; --un-pan-y: ; --un-pinch-zoom: ; --un-scroll-snap-strictness: proximity; --un-ordinal: ; --un-slashed-zero: ; --un-numeric-figure: ; --un-numeric-spacing: ; --un-numeric-fraction: ; --un-border-spacing-x: 0; --un-border-spacing-y: 0; --un-ring-offset-shadow: 0 0 transparent; --un-ring-shadow: 0 0 transparent; --un-shadow-inset: ; --un-shadow: 0 0 transparent; --un-ring-inset: ; --un-ring-offset-width: 0px; --un-ring-offset-color: #fff; --un-ring-width: 0px; --un-ring-color: rgba(147,197,253,.5); --un-blur: ; --un-brightness: ; --un-contrast: ; --un-drop-shadow: ; --un-grayscale: ; --un-hue-rotate: ; --un-invert: ; --un-saturate: ; --un-sepia: ; --un-backdrop-blur: ; --un-backdrop-brightness: ; --un-backdrop-contrast: ; --un-backdrop-grayscale: ; --un-backdrop-hue-rotate: ; --un-backdrop-invert: ; --un-backdrop-opacity: ; --un-backdrop-saturate: ; --un-backdrop-sepia: ; box-sizing: border-box; border-radius: 6px; margin: 0px; padding: 0.2em 0.4em; white-space: break-spaces; color: rgb(44, 44, 54); text-align: start;&quot;&gt;!se-&amp;gt;on_rq&lt;/code&gt;&lt;span style=&quot;color: rgb(44, 44, 54); text-align: start; text-wrap: wrap;&quot;&gt;，如果不在就绪队列中，加1）来确定基本的时间周期。这个周期是所有任务公平分享的基础时间单位。&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="3140" width="440" height="110" as="geometry" />
+          <mxGeometry x="1147.5" y="3200" width="440" height="110" as="geometry" />
         </mxCell>
         <mxCell id="-njEmwGsimaOW8p4Tyl_-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-njEmwGsimaOW8p4Tyl_-53" target="-njEmwGsimaOW8p4Tyl_-54">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1309" y="3500" />
-              <mxPoint x="1540" y="3500" />
-              <mxPoint x="1540" y="3360" />
+              <mxPoint x="1366.5" y="3560" />
+              <mxPoint x="1597.5" y="3560" />
+              <mxPoint x="1597.5" y="3420" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -671,28 +660,47 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-njEmwGsimaOW8p4Tyl_-53" value="&lt;div style=&quot;line-height: 19px; white-space: pre;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;slice = __calc_delta(slice, se-&amp;gt;load.weight, load);&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px; white-space: pre;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;// 定义在kernel/sched/fair.c中&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px; white-space: pre;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;计算分配的运行时间&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="1144" y="3410" width="330" height="60" as="geometry" />
+          <mxGeometry x="1201.5" y="3470" width="330" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-njEmwGsimaOW8p4Tyl_-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-njEmwGsimaOW8p4Tyl_-54" target="-njEmwGsimaOW8p4Tyl_-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-njEmwGsimaOW8p4Tyl_-54" value="&lt;div style=&quot;line-height: 19px; white-space: pre;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;update_load_add(&amp;amp;lw, se-&amp;gt;load.weight);&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px; white-space: pre;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;更新任务的权重&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="3340" width="258" height="40" as="geometry" />
+          <mxGeometry x="1237.5" y="3400" width="258" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-njEmwGsimaOW8p4Tyl_-60" value="公式：runtime = 前述公平分配的运行时间slice * se的weight / 队列总权重load" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="1144" y="3530" width="260" height="30" as="geometry" />
+          <mxGeometry x="1201.5" y="3590" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-njEmwGsimaOW8p4Tyl_-62" value="&lt;div style=&quot;line-height: 19px; white-space: pre;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;delta = __calc_delta(delta, NICE_0_LOAD, &amp;amp;se-&amp;gt;load);&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px; white-space: pre;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;// 定义在kernel/sched/fair.c中&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="688" y="3270" width="320" height="50" as="geometry" />
+          <mxGeometry x="745.5" y="3330" width="320" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-njEmwGsimaOW8p4Tyl_-64" value="公式：vruntime = runtime *&amp;nbsp; nice值为0对应的权重，也即大部分普通进程的NICE_0_LOAD / 调度实体的权重se-&amp;gt;load" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="691" y="3330" width="330" height="30" as="geometry" />
+          <mxGeometry x="748.5" y="3390" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-njEmwGsimaOW8p4Tyl_-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-njEmwGsimaOW8p4Tyl_-68" target="-njEmwGsimaOW8p4Tyl_-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-njEmwGsimaOW8p4Tyl_-73" value="a. 更新运行时数据，包括任务的权重、&lt;div&gt;分配的时间、组调度的占比等&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-njEmwGsimaOW8p4Tyl_-71">
+          <mxGeometry x="0.47" y="1" relative="1" as="geometry">
+            <mxPoint x="38" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-njEmwGsimaOW8p4Tyl_-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-njEmwGsimaOW8p4Tyl_-68" target="-njEmwGsimaOW8p4Tyl_-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-njEmwGsimaOW8p4Tyl_-76" value="b. 执行入队或出队操作" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-njEmwGsimaOW8p4Tyl_-75">
+          <mxGeometry x="0.3648" y="-1" relative="1" as="geometry">
+            <mxPoint x="5" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="-njEmwGsimaOW8p4Tyl_-68" value="&lt;div style=&quot;line-height: 19px; white-space: pre;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;static void dequeue_task_fair(struct rq *rq, &lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px; white-space: pre;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;struct task_struct *p, int flags)&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;font-family: gBsJst8QgJAjLQxQNtJx; white-space: normal;&quot;&gt;// 定义在kernel/sche/fair.c中&lt;/span&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="2830" width="240" height="60" as="geometry" />
+          <mxGeometry x="880" y="2800" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-njEmwGsimaOW8p4Tyl_-74" value="用红黑树维护队列，也就是，入队和出队通过&lt;font color=&quot;#ff0000&quot;&gt;将调度实体sched_entity插入或移出红黑树&lt;/font&gt;来实现" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1178" y="3015" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-njEmwGsimaOW8p4Tyl_-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-njEmwGsimaOW8p4Tyl_-43" target="-njEmwGsimaOW8p4Tyl_-43">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
